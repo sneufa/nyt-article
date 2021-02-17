@@ -44,8 +44,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/sneufa)
-- Twitter: [@twitterhandle](https://twitter.com/sneufa)
+- GitHub: [@sneufa](https://github.com/sneufa)
+- Twitter: [@sneufa](https://twitter.com/sneufa)
 
 ## 🤝 Contributing
 
