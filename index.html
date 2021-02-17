@@ -61,14 +61,25 @@
         </div>
 
         <div class="share-icons">
-          <a href="#"><img src="./images/facebook.svg" width="15px" /></a>
-          <a href="#"><img src="./images/whatsapp.svg" width="15px" /></a>
-          <a href="#"><img src="./images/twitter.svg" width="15px" /></a>
-          <a href="#"><img src="./images/envelope.svg" width="15px" /></a>
-          <a href="#"><img src="./images/share-option.svg" width="15px" /></a>
+          <div class="icon">
+            <a href="#"><img src="./images/facebook.svg" width="15px" /></a>
+          </div>
+          <div class="icon">
+            <a href="#"><img src="./images/whatsapp.svg" width="15px" /></a>
+          </div>
+          <div class="icon">
+            <a href="#"><img src="./images/twitter.svg" width="15px" /></a>
+          </div>
+          <div class="icon">
+            <a href="#"><img src="./images/envelope.svg" width="15px" /></a>
+          </div>
+          <div class="icon">
+            <a href="#"><img src="./images/share-option.svg" width="15px" /></a>
+          </div>
         </div>
         <div class="hero-figure">
           <img
+            alt="Alan Guth"
             class="hero-image"
             src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
           />
@@ -76,13 +87,28 @@
             Alan Guth was one of the first physicists to hypothesize the
             existence of inflation, which explains how the universe expanded so
             uniformly and so quickly in the instant after the Big Bang 13.8
-            billion years ago.Credit...Rick Friedman for The New York Times
+            billion years ago.
+            <span style="font-size: 13px; line-height: 18px; font-weight: 400"
+              >Rick Friedman for The New York Times</span
+            >
           </div>
         </div>
-        <a href="#">By Dennis Overbye</a>
-        <time>March 17, 2014</time>
+        <a href="#" class="author" style="font-family: nyt-franklin"
+          >By <span class="author name">Dennis Overbye</span></a
+        >
+        <time
+          style="
+            font-family: nyt-franklin;
+            font-size: 13px;
+            line-height: 16px;
+            color: #333;
+            width: 50%;
+            margin-bottom: 20px;
+          "
+          >March 17, 2014</time
+        >
 
-        <div>
+        <div class="article-body">
           <p>
             CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
             physicist named Alan Guth, with a new son and a year’s appointment
@@ -143,7 +169,7 @@
             realms of time and space and energy to science and speculation.
           </p>
 
-          <p><strong>‘As Big as It Gets’ </strong></p>
+          <p class="bold">‘As Big as It Gets’</p>
 
           <p>
             In our own universe, it would serve as a window into the forces
@@ -176,9 +202,11 @@
             Astrophysical Journal.
           </p>
 
-          <section>
+          <div class="inflation-section">
             <header>
-              <h1>The Theory of Inflation</h1>
+              <h1 style="font-family: nyt-cheltenham">
+                The Theory of Inflation
+              </h1>
               <p>
                 Astronomers have found evidence to support the theory of
                 inflation, which explains how the universe expanded so uniformly
@@ -187,8 +215,10 @@
               </p>
             </header>
             <hr />
-            <footer>By LARRY BUCHANAN and JONATHAN CORUM</footer>
-          </section>
+            <footer style="font-family: nyt-franklin">
+              By LARRY BUCHANAN and JONATHAN CORUM
+            </footer>
+          </div>
 
           <p>
             Dr. Kovac said the chance that the results were a fluke was only one
@@ -277,7 +307,7 @@
             are trying similar measurements from balloons, mountaintops and
             space.
           </p>
-          <p><strong>Spirals in the Sky</strong></p>
+          <p class="bold">Spirals in the Sky</p>
           <p>
             Gravity waves are the latest and deepest secret yet pried out of the
             cosmic microwaves, which were discovered accidentally by Arno
@@ -298,17 +328,21 @@
             wintering over in 1994. “I’ve been hooked ever since,” he said.
             Image
           </p>
-          <figure>
+          <div class="cosmos-image">
             <img
+              alt="Cosmos"
               src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp"
+              width="60%"
             />
-            <figcaption>
+            <div class="cosmos-caption">
               The Bicep2 telescope, in the foreground, was used to detect the
               faint spiraling gravity patterns — the signature of a universe
-              being wrenched violently apart at its birth.Credit...Steffen
-              Richter/Associated Press
-            </figcaption>
-          </figure>
+              being wrenched violently apart at its birth.
+              <span style="color: #888; font-size: 13px; line-height: 16px">
+                Steffen Richter/Associated Press</span
+              >
+            </div>
+          </div>
           <p>
             In 2002, he was part of a team that discovered that the microwave
             radiation was polarized, meaning the light waves had a slight
@@ -334,7 +368,7 @@
             had things right and worrying that competitors might beat them to
             the breakthrough.
           </p>
-          <p><strong>A special time</strong></p>
+          <p class="bold">A Special time</p>
           <p>
             The data traced the onset of inflation to a time that physicists
             like Dr. Guth, staying up late in his Palo Alto house 35 years ago,
@@ -411,8 +445,30 @@
         </div>
       </div>
     </main>
-    <hr />
-    <hr />
-    <footer></footer>
+    <div class="line-break">
+      <div class="hr-1"></div>
+    </div>
+    <hr width="80%" />
+
+    <footer>
+      <div class="footer" style="font-family: nyt-franklin">
+        <div class="footer-item">
+          <a href="#">© 2021 The New York Times Company</a>
+        </div>
+        <div class="footer-item"><a href="#">NYTCo</a></div>
+        <div class="footer-item"><a href="#">Contact Us</a></div>
+        <div class="footer-item"><a href="#">Accessibility</a></div>
+        <div class="footer-item"><a href="#">Work with us</a></div>
+        <div class="footer-item"><a href="#">Advertise</a></div>
+        <div class="footer-item"><a href="#">T Brand Studio</a></div>
+        <div class="footer-item"><a href="#">Your Ad Choices</a></div>
+        <div class="footer-item"><a href="#">Privacy Policy</a></div>
+        <div class="footer-item"><a href="#">Terms of Service</a></div>
+        <div class="footer-item"><a href="#">Terms of Sale</a></div>
+        <div class="footer-item"><a href="#">Site Map</a></div>
+        <div class="footer-item"><a href="#">Help</a></div>
+        <div class="footer-item"><a href="#">Subscriptions</a></div>
+      </div>
+    </footer>
   </body>
 </html>

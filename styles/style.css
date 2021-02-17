@@ -66,6 +66,10 @@ a:hover {
   cursor: pointer;
 }
 
+.section-name:hover {
+  text-decoration: underline;
+}
+
 .middle {
   text-align: left;
   width: 22%;
@@ -117,11 +121,27 @@ main {
 .share-icons {
   width: 50%;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 2%;
+  padding: 4.5px 9px 0 9px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.icon:hover {
+  background-color: white;
 }
 
 .hero-figure {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 27px;
 }
 
 .hero-caption {
@@ -129,4 +149,121 @@ main {
   line-height: 20px;
   font-weight: 400;
   color: #666;
+  width: 70%;
+}
+
+.author {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+.article-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-body p {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.bold {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.inflation-section {
+  margin: 20px 0;
+  width: 72%;
+}
+
+.inflation-section p {
+  width: 100%;
+  color: #888;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.inflation-section h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.inflation-section hr {
+  width: 7%;
+  margin-left: 0;
+  height: 1.5px;
+  background: black;
+}
+
+.inflation-section footer {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.cosmos-image {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cosmos-caption {
+  margin: 10px 0;
+  width: 60%;
+  color: #666;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.line-break {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hr-1 {
+  margin-top: 10px;
+  border-top: 2px solid #999;
+  border-bottom: 1px solid #999;
+  height: 1px;
+  width: 80%;
+}
+
+.footer {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-item {
+  margin: 0 0.7%;
 }
