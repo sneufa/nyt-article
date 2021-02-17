@@ -21,10 +21,6 @@ Additional description about the project and its features.
 
 [New York Times Article Clone](https://sneufa.github.io/nyt-article/)
 
-<!-- ## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
@@ -48,15 +44,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/sneufa)
+- Twitter: [@twitterhandle](https://twitter.com/sneufa)
 
 ## 🤝 Contributing
 
@@ -76,4 +65,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed. -->
+This project is [MIT](lic.url) licensed.
