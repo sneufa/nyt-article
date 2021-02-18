@@ -12,6 +12,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./images/favicon.ico" />
   </head>
 
@@ -48,9 +53,8 @@
           </button>
         </div>
       </nav>
+      <hr />
     </header>
-
-    <hr />
 
     <main>
       <div class="article">
@@ -451,6 +455,75 @@
             wind up at inflation.”
           </p>
         </div>
+      </div>
+
+      <div class="form">
+        <form class="form-box">
+          <div class="text-item">
+            <label for="name" class="y">Name</label>
+            <input type="text" name="name" id="name" required class="t" />
+          </div>
+          <div class="text-item">
+            <label for="email" class="y">Email</label>
+            <input type="email" name="email" id="email" required class="t" />
+          </div>
+          <div class="comment-area">
+            <textarea
+              id="comment"
+              name="comment"
+              placeholder="Type your comment..."
+              rows="20"
+              cols="60"
+            ></textarea>
+          </div>
+          <div class="opinion-flex">
+            <label>What is your overall opinion about this article ?</label>
+            <div class="opinion-options">
+              <div class="opinion">
+                <input
+                  type="radio"
+                  name="opinion"
+                  value="Positive"
+                  id="positive"
+                  required
+                />
+                <label for="positive">Positive</label>
+              </div>
+              <div class="opinion">
+                <input
+                  type="radio"
+                  name="opinion"
+                  value="Neutral"
+                  id="neutral"
+                />
+                <label for="positive">Neutral</label>
+              </div>
+              <div class="opinion">
+                <input
+                  type="radio"
+                  name="opinion"
+                  value="Negative"
+                  id="negative"
+                />
+                <label for="positive">Negative</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="subscribe-flex">
+            <input
+              type="checkbox"
+              id="subscribe"
+              name="subscribe"
+              class="x"
+              required
+            />
+            <label for="subscribe">I want to subscribe to the newsletter</label>
+          </div>
+          <div class="send-flex">
+            <input type="submit" value="Send" class="sendbtn" />
+          </div>
+        </form>
       </div>
     </main>
     <div class="line-break">
