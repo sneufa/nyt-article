@@ -20,6 +20,10 @@ hr {
   border: 0.5px solid;
 }
 
+header hr {
+  margin: 0;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -42,6 +46,15 @@ a:hover {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
+  margin-bottom: 7px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
 }
 
 .right {
@@ -278,4 +291,123 @@ main {
 
 .footer-item {
   margin: 0 0.7%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  color: #3c4257;
+  font-weight: 500;
+  padding: 2%;
+  background-color: #f7fafc;
+  border-radius: 2%;
+  box-shadow: 0 0 10px 10px beige;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.comment-area {
+  margin-top: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1%;
+  width: 80%;
+}
+
+.opinion-flex {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.opinion-options {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.subscribe-flex {
+  display: flex;
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 1%;
+  align-items: center;
+}
+
+.send-flex {
+  display: flex;
+  width: 80%;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+
+.opinion {
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.x {
+  margin-right: 3%;
+}
+
+.y {
+  margin-bottom: 2%;
+}
+
+textarea {
+  resize: none;
+  border-radius: 0.5em;
+  outline: none;
+  border-color: #ccc;
+}
+
+.t {
+  height: 2em;
+  border-radius: 0.5em;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.sendbtn {
+  width: 100%;
+  height: 2.5em;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+  background-color: #396e5e;
+  color: #fff;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.sendbtn:hover {
+  background-color: #004338;
+}
+
+.t:focus {
+  box-shadow: 0 0 0.25em 0.25em #bddef2;
+}
+
+textarea:focus {
+  box-shadow: 0 0 0.25em 0.25em #bddef2;
 }
