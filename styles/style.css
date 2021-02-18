@@ -375,14 +375,14 @@ main {
 
 textarea {
   resize: none;
-  border-radius: 2%;
+  border-radius: 0.5em;
   outline: none;
   border-color: #ccc;
 }
 
 .t {
   height: 2em;
-  border-radius: 1em;
+  border-radius: 0.5em;
   outline: none;
   border: 1px solid #ccc;
 }
